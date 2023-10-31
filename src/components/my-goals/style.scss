@@ -63,6 +63,24 @@
             transform: translate(-50%, -50%) rotate(-45deg);
           }
         }
+
+        .open-modal-button {
+          background-color: #f1c40f;
+          color: white;
+          appearance: none;
+          border: none;
+          padding: 10px 23px;
+          border-radius: 6px;
+          cursor: pointer;
+          font-family: inherit;
+          font-size: inherit;
+          margin-left: 10px;
+          transition: 0.2s background-color;
+
+          &:hover {
+            background-color: rgba(#f1c40f, 0.8);
+          }
+        }
       }
     }
   }

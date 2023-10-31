@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.scss";
 import CreateGoal from "./components/create-goal";
 import MyGoals from "./components/my-goals";
+import "./App.scss";
 
 function App() {
   const [sampleGoals, setSampleGoals] = useState([
